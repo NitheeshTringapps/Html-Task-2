@@ -8,6 +8,31 @@
     background-color: #346eeb;
     width: 100%;
 }
+#icon1{
+    background: url(./spriteimage.svg) -10px 0px;
+    height: 50px;
+    width: 30px;
+}
+#icon2{
+    background: url(./spriteimage.svg) -60px 0px;
+    height: 50px;
+    width: 30px;
+}
+#icon3{
+    background: url(./spriteimage.svg) -110px 0px;
+    height: 50px;
+    width: 30px;
+}
+#icon4{
+    background: url(./spriteimage.svg) 330px 0px;
+    height: 50px;
+    width: 30px;
+}
+#icon5{
+    background: url(./spriteimage.svg) 150px 0px;
+    height: 50px;
+    width: 30px;
+}
 .header{
     background-color: #c2f5ba;
     width: 100%;
