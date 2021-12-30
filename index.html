@@ -2,65 +2,48 @@
 <html lang="en">
 <head>
     <title>Html Task 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         .flex-box{
             display: flex;
-            /* align-items: baseline; */
             flex-flow: wrap;
             text-align: center;
         }
-        .top{
+        .nav{
             height: 30px;
-            background-color: blue;
+            background-color: #346eeb;
             width: 100%;
-            /* align-items: center; */
         }
         .header{
-            /* height: 100px; */
-            background-color: lightblue;
+            background-color: #c2f5ba;
             width: 100%;
             font-size: 50px;
-            /* align-items: center; */
         }
         .content{
-            /* height: 150px; */
-            font-size: 30px;
-            background-color: white;
+            font-size: 25px;
             width: 100%;
         }
         .order-now{
-            /* height: 100px; */
-            background-color: cornsilk;
             width: 100%;
         }
         .feature-1{
-            /* height: 100px; */
-            /* background-image: url(./images/first.jpg); */
-            /* background-color: orange; */
             padding-top: 10px;
             padding-bottom: 10px;
             width: 100%;
         }
         .feature-2{
-            /* height: 100px; */
-            /* background-image: url(./images/second.jpg); */
-            /* background-color: red; */
             padding-top: 10px;
             padding-bottom: 10px;
             width: 100%;
         }
         .feature-3{
-            /* height: 100px; */
-            /* background-image: url(./images/third.jpeg); */
-            /* background-color: violet; */
             padding-top: 40px;
-            /* padding-bottom: 0px; */
             width: 100%;
         }
         @media all and (min-width: 481px) and (max-width: 768px){
             .header{ order: 1; width: 100%;}
             .content{ order: 2; width: 100%;}
-            .order-now{ order: 3; width: 50%;}
+            .order-now{ order: 3; width: 50%; padding-top: 250px;}
             .feature-1{ order: 4; width: 50%;}
             .feature-2{ order: 5; width: 50%;}
             .feature-3{ order: 6; width: 50%;}
@@ -77,16 +60,27 @@
 </head>
 <body>
     <div class="flex-box">
-        <header class="top"></header>
+        <header class="nav"></header>
         <header class="header">Redmi Note 5 Pro</header>
         <section class="content">Take photos, make calls or watch videos easily on this Redmi Note 5 Pro mobile phone. 
             Powered by Qualcomm Snapdragon 636 Octa-core Processor, this mobile will provide a lag-free performance 
             even when you’re multitasking. And, the 4000 mAh battery will ensure longer hours of entertainment without 
             any interruption.</section>
-        <section class="order-now">Order Now</section>
-        <section class="feature-1">Feature <img src="./images/first.jpg" alt="Front"></section>
-        <section class="feature-2">Feature <img src="./images/second.jpg" alt="Back"></section>
-        <section class="feature-3">Feature <img src="./images/third.jpeg" alt="Side"></section>
+        <section class="order-now">
+            <img src="./images/orderNow.jpeg" alt="Order Now"  style="width: 200px; ">
+        </section>
+        <section class="feature-1">
+            <img src="./images/first.jpg" alt="Front">
+            <p>Front</p>
+        </section>
+        <section class="feature-2">
+            <img src="./images/second.jpg" alt="Back">
+            <p>Back</p>
+        </section>
+        <section class="feature-3">
+            <img src="./images/third.jpeg" alt="Side"><br><br><br><br>
+            <p>Side</p>
+        </section>
     </div>
 </body>
 </html>
